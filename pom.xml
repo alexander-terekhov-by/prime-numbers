@@ -17,6 +17,7 @@
 
   <modules>
     <module>grpc</module>
+    <module>primes-server</module>
   </modules>
 
 </project>
