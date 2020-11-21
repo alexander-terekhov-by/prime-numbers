@@ -1,3 +1,4 @@
 /.idea/
-/prime-numbers.iml
+*.iml
 /target/
+**target/*

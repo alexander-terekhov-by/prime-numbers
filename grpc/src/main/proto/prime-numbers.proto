@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "org.example.primes";
+
+package com.test.grpc;
+
+service PrimeNumbersStreamer {
+  rpc listPrimes(Number) returns (stream Number) {}
+}
+
+message Number {
+  int32 value = 1;
+}
