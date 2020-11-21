@@ -15,9 +15,10 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <modules>
-    <module>grpc</module>
-    <module>primes-server</module>
-  </modules>
+    <modules>
+        <module>grpc</module>
+        <module>primes-server</module>
+        <module>primes-api-gateway</module>
+    </modules>
 
 </project>
